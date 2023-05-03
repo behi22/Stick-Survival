@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Stick Survival</title>
+  <link rel="stylesheet" type="text/css" href="css/layout.css" media="all">
+   <style>
+       h1 {color: darkorange;}
+       h3 {text-align: center; color:darkorange;}
+       ul {list-style-type: none;}
+       ul a {
+           text-decoration: none;
+           text-align: center;
+           width: 125px;
+           background-color: darkorange;
+           color: whitesmoke;
+           padding-left: 25px;
+           padding-right: 25px;
+           padding-top: 15px;
+           padding-bottom: 15px;
+       }
+       ul li {
+           margin-left: 46%;
+           margin-top: 40px;
+           margin-bottom: 45px;
+       }
+       ul a:hover {
+           background-color: whitesmoke;
+           color: darkorange;
+       }
+       header {grid-area:header;}
+       main {grid-area:main;}
+       nav {grid-area:nav;}
+       img {grid-area:img;}
+       footer {grid-area:footer; background-color: darkorange;}
+       body {
+           background-color: white;
+           display: grid;
+           grid-template:
+               'header header'
+               'main main'
+               'nav img'
+               'footer footer';
+       }
+   </style>
+</head>
+<body>
+    <header><h1>Welcome to Stick Survival!</h1></header>
+    <main>
+       <h3>First Off, Let's Start by Choosing Your Preferred Map</h3>
+    </main>
+    <nav> 
+          <ul>
+              <li><a style="padding-right:40px" href="city.html">City</a></li>
+              <li><a href="beach.html">Beach</a></li>
+              <li><a href="jungle.html">Jungle</a></li>
+          </ul>
+    </nav>
+    <img  src="images/dance.gif" alt="gif" width="300px" height="300px">
+    <footer>
+        <div>CopyRight &copy; 2019</div>
+        <div>Behbod &amp; Behshad Babai</div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Stick Survival</title>
+ <script src="jungle_script.js" type="text/javascript" defer></script>
+  <link rel="stylesheet" type="text/css" href="css/layout.css" media="all">
+  <style>
+    a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    background-color: darkorange;
+    padding: 10px 22px;
+    margin-left: 47%;
+    }
+    a:hover {
+        background-color: whitesmoke;
+        color: darkorange;
+    }
+  </style>
+</head>
+<body style="background-color: black;color: whitesmoke">
+    <header><h1>Stick Survival</h1></header>
+    <main>
+        <h3>How To Play:</h3>
+        <div>For movement use your keyboard's Left and Right Arrow keys, To make the action happen just press G!</div>
+        <div>You have 5 lives, try not to lose them!(You May Be Given Extra Lives in The Game) Destroy the arrows before they hit you in order to keep your lives. The Higher The Difficulty, The Faster The Arrows!</div>
+        <h3>Difficulty: </h3><input type="radio" name="difficulty" id="easy"> Easy 
+        <input type="radio" name="difficulty" id="medium"> Medium 
+        <input type="radio" name="difficulty" id="hard"> Hard <br>
+        <h3>Weapon: </h3><input type="radio" name="weapon" id="hand"> Hand 
+        <input type="radio" name="weapon" id="sword"> Sword <br>
+        <h3>Character Skin: </h3><input type="radio" name="skin" id="white"> White 
+        <input type="radio" name="skin" id="yellow"> Yellow 
+        <button id="start" type="button" onclick="start()" style="margin-left: 38%">Start</button>
+        <p></p>
+        <div style="text-align: center;color: darkorange" id="life">Lives Left: 5</div>
+        <canvas id="game" width="1400" height="600" style="border: 1px solid whitesmoke;"></canvas>
+        <p></p>
+        <a href="home.html">Home</a>
+        <p></p>
+    </main>
+    <footer>
+        <div>CopyRight &copy; 2019</div>
+        <div>Behbod &amp; Behshad Babai</div>
+    </footer>
+</body>
+</html>

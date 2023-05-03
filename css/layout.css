@@ -1,0 +1,38 @@
+body {
+    font-size: 110%;
+    background-color: darkorange;
+    color: black;
+    max-width: 100%;
+}
+
+header {
+    text-align: center;
+    clear: both;
+}
+
+main {
+    background-size: 100%;
+    width: 100%;
+}
+
+#start{
+    margin-left: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer {
+    font-size: 75%;
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+}
+
+canvas {
+    margin-left: 35px;
+    margin-bottom: 25px;
+}
+
+h3 {color: darkorange;}
+
+h1 {color: darkorange;}
